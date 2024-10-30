@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.form_color_black{
+  background-color:rgba(51, 48, 48, 0.676);
+  color:white;
+  height: 100vh;
+  overflow-y: hidden;
+  
+}
+.form_color_white{
+  background-color:white;
+  color:black;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.outer_form{
+
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form_text_to_analyze{
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 14px;
+}
+.buttons{
+  margin-left: 21rem;
+
+  display:flex;
+  flex-direction: row;
+  margin-top:2rem;
+  text-align: center;
+  
+}
+.text_area{
+  max-width: 50%;
+    height: auto;
+    margin-left: 19rem;
+}
+
+
+
