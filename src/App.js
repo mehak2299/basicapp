@@ -12,9 +12,12 @@ function App() {
     setMode(!mode)
     if(mode===false){
     changeAlertValue("Dark Mode Enable",'success')
+    document.title='Dark Mode'
     }
     if(mode===true){
       changeAlertValue("Light Mode Enable",'success')
+      document.title='Light Mode'
+
       }
   }
 
