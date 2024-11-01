@@ -8,7 +8,7 @@ export default function Alert(props) {
         props.alertValue &&
         <div className={`alert alert-${props.alertValue.type} alert-dismissible fade show`} role="alert">
             {firstletterCaptial()+" :  "+props.alertValue.msg}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     )
 }
